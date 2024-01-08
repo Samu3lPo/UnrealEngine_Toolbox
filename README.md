@@ -17,10 +17,8 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-<div align="center">
-  [![MIT License][license-shield]][license-url]
-  [![LinkedIn][linkedin-shield]][linkedin-url]
-</div>
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -29,19 +27,10 @@
     <img src="images/UE_Logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Unreal Engine Toolbox</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    An awesome repo full of nice plugins to add to your next Unreal Engine project!
   </p>
 </div>
 
@@ -71,55 +60,67 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-BLABLABLA
+This git repository contains all the nice plugins that I developped during my time at the University and during my spare time. Those plugins could be very nice to have in the context of a GameJam or a personnal project. All the plugins contained in this repository are built to be multiplayer ready for any multiplayer games you would want to create.
 
 ### Built With
 
 - Unreal Engine 5
 - C++ project
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+This is where you'll find everyting to know about how to install the plugins in your Unreal Engine project.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+* Unreal engine 5.1 or later
+* Visual Studio 2022 or Rider (Rider if you can)
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+1. Clone the repo
+   ```sh
+   git clone https://github.com/Samu3lPo/UnrealEngine_Toolbox.git
+   ```
+2. Extract files to the folder plugin of your Unreal5.1+ project
+   Your project should look like this :
+   ```sh
+   YOUR_GAME/Plugins/[All the new plugin folders]/
+   ```
+3. Open your Unreal project and go to Settings > Plugins to enable all the plugins.
+4. Close Unreal and make sure that your c++ project is build. If the build failed, follow next instructions:
+   - Delete following folders : /Binaries, /Intermediate, /DerivedDataCache, /Plugins/OnlineToolbox/Binaries, /Plugins/OnlineToolbox/Intermediate
+   - Regenerate project solution (right click on the .uproject file > generate Visual Studio code solution)
+   - Open the new solution with your IDE
+   - Build your project and run it with your IDE.
+5. You should now have new plugins folder in your Unreal project tree.
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+For more details about installing Visual Studio for Unreal Engine, please refor to the [Documentation](https://docs.unrealengine.com/5.1/en-US/setting-up-visual-studio-development-environment-for-cplusplus-projects-in-unreal-engine/)
+
+For more details about installing Rider for Unreal Engine, please refor to the [Documentation](https://www.jetbrains.com/help/rider/Unreal_Engine__Before_You_Start.html)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+### Unreal Online Toolbox plugin
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+1. Session Subsystem:
+
+The session subsystem allow you to connect many players to a session or even to chose which session a player want to join. This plugin work out of the box with the null subsystem from Unreal but you can use any online subsystem if you add the correct configuration to your project.
+
+- [Documentation for Steam](https://docs.unrealengine.com/5.1/en-US/online-subsystem-steam-interface-in-unreal-engine/)
+- [Documentation for Epic Game](https://docs.unrealengine.com/5.1/en-US/online-subsystem-eos-plugin-in-unreal-engine/)
+
+2. Identity Subsystem:
+
+3. Achievements subsystem:
+
+### Ability System plugin
+
+TODO
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -133,9 +134,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Samuel Potvin - [@your_Linkedin](https://linkedin.com/in/samuel-potvin-699b5a23a) - samuel.potvin25@gmail.com
+Samuel Potvin - [Linkedin](https://linkedin.com/in/samuel-potvin-699b5a23a) - samuel.potvin25@gmail.com
 
-Personnal Project Link: [https://github.com/your_username/repo_name](https://github.com/Samu3lPo/GameDevPlayground)
+My Personnal Project Link: [https://github.com/your_username/repo_name](https://github.com/Samu3lPo/GameDevPlayground)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
