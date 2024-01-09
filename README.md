@@ -51,7 +51,7 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
+    <li><a href="#Plugins">Plugins</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
@@ -90,7 +90,7 @@ This is where you'll find everyting to know about how to install the plugins in 
    ```
 3. Open your Unreal project and go to Settings > Plugins to enable all the plugins.
 4. Close Unreal and make sure that your c++ project is build. If the build failed, follow next instructions:
-   - Delete following folders : /Binaries, /Intermediate, /DerivedDataCache, /Plugins/OnlineToolbox/Binaries, /Plugins/OnlineToolbox/Intermediate
+   - Delete following folders : /Binaries, /Intermediate, /DerivedDataCache, /Plugins/[PluginName]/Binaries, /Plugins/[PluginName]/Intermediate
    - Regenerate project solution (right click on the .uproject file > generate Visual Studio code solution)
    - Open the new solution with your IDE
    - Build your project and run it with your IDE.
@@ -103,7 +103,7 @@ For more details about installing Rider for Unreal Engine, please refor to the [
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Plugins
 
 ### - Unreal Online Toolbox plugin
 
