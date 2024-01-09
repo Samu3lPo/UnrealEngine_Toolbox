@@ -30,7 +30,7 @@
   <h3 align="center">Unreal Engine Toolbox</h3>
 
   <p align="center">
-    An awesome repo full of nice plugins to add to your next Unreal Engine project!
+    An awesome repository full of nice plugins to add to your next Unreal Engine 5 project!
   </p>
 </div>
 
@@ -60,7 +60,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This git repository contains all the nice plugins that I developped during my time at the University and during my spare time. Those plugins could be very nice to have in the context of a GameJam or a personnal project. All the plugins contained in this repository are built to be multiplayer ready for any multiplayer games you would want to create.
+This git repository contains all the nice plugins that I developped during my time at the University and during my spare time. These plugins can be very nice to have in the context of a GameJam or a personnal project. All the plugins contained in this repository are built to be multiplayer ready for any multiplayer games you would want to create.
 
 ### Built With
 
@@ -105,22 +105,30 @@ For more details about installing Rider for Unreal Engine, please refor to the [
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-### Unreal Online Toolbox plugin
+### - Unreal Online Toolbox plugin
 
-1. Session Subsystem:
+To take full advantage of this Plugin's features, you'll need to configure your project to use an online subsystem such as Steam or Epic Online Services (EOS).
 
-The session subsystem allow you to connect many players to a session or even to chose which session a player want to join. This plugin work out of the box with the null subsystem from Unreal but you can use any online subsystem if you add the correct configuration to your project.
+Here is a [course page](https://dev.epicgames.com/community/learning/courses/1px/unreal-engine-the-eos-online-subsystem-oss-plugin/Lnjn/unreal-engine-introduction) that explains how to setup EOS in your game. This is the one I recommend since it's the one I used to test this plugin and it is free.
+
+<ins>SESSION SUBSYSTEM</ins>
+
+The session subsystem allow you to connect many players to a session or even to chose which session a player want to join. This system work out of the box with the null subsystem from Unreal but you can use any online services if you add the correct configuration to your project.
 
 - [Documentation for Steam](https://docs.unrealengine.com/5.1/en-US/online-subsystem-steam-interface-in-unreal-engine/)
 - [Documentation for Epic Game](https://docs.unrealengine.com/5.1/en-US/online-subsystem-eos-plugin-in-unreal-engine/)
 
-2. Identity Subsystem:
+<ins>IDENTITY SUBSYSTEM</ins>
 
-3. Achievements subsystem:
+The identity subsystem allow you to connect to your account from any online subsystem. This system gives you all the basic functionnalities to login and logout to your account in game.
 
-### Ability System plugin
+<ins>ACHIEVEMENTS SUBSYSTEM</ins>
 
-TODO
+The achivements subsystem allow you to creates achievements in your game through any online subsystem. This system gives you all the basic functionnalities to handle achievements from any online services that you created for your game.
+
+### - Ability System plugin
+
+This plugin take advantage of the [Gameplay Tags](https://docs.unrealengine.com/5.1/en-US/using-gameplay-tags-in-unreal-engine/) in Unreal to further enhance the implementation of skills in your next game. This plugin gives you the potential to creates and handle abilities and modifiers in your game. Games such as MMORPGs, where the gameplay is skill-based, would benefit greatly from this system. This system is made to be multiplayer ready.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -136,13 +144,13 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Samuel Potvin - [Linkedin](https://linkedin.com/in/samuel-potvin-699b5a23a) - samuel.potvin25@gmail.com
 
-My Personnal Project Link: [https://github.com/your_username/repo_name](https://github.com/Samu3lPo/GameDevPlayground)
+My Personnal Project Link: [https://github.com/Samu3lPo/GameDevPlayground](https://github.com/Samu3lPo/GameDevPlayground)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[license-url]: https://github.com/Samu3lPo/UnrealEngine_Toolbox/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/samuel-potvin-699b5a23a
