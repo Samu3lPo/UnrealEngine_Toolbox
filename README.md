@@ -109,12 +109,12 @@ To take full advantage of this Plugin's features, you'll need to configure your 
 
 Here is a [course page](https://dev.epicgames.com/community/learning/courses/1px/unreal-engine-the-eos-online-subsystem-oss-plugin/Lnjn/unreal-engine-introduction) that explains how to setup EOS in your game. This is the one I recommend since it's the one I used to test this plugin and it is free.
 
+- [Documentation for Steam](https://docs.unrealengine.com/5.1/en-US/online-subsystem-steam-interface-in-unreal-engine/)
+- [Documentation for Epic Game](https://docs.unrealengine.com/5.1/en-US/online-subsystem-eos-plugin-in-unreal-engine/)
+
 <ins>SESSION SUBSYSTEM</ins>
 
 The session subsystem allow you to connect many players to a session or even to chose which session a player want to join. This system work out of the box with the null subsystem from Unreal but you can use any online subsystem if you add the correct configuration to your project.
-
-- [Documentation for Steam](https://docs.unrealengine.com/5.1/en-US/online-subsystem-steam-interface-in-unreal-engine/)
-- [Documentation for Epic Game](https://docs.unrealengine.com/5.1/en-US/online-subsystem-eos-plugin-in-unreal-engine/)
 
 <ins>IDENTITY SUBSYSTEM</ins>
 
