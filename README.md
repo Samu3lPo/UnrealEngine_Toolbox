@@ -28,7 +28,8 @@
   <h3 align="center">Unreal Engine Toolbox</h3>
 
   <p align="center">
-    An awesome repository full of nice plugins to add to your next Unreal Engine 5 project!
+    An awesome repository full of nice plugins to add to your next Unreal Engine 5 project! <br />
+    Made By Samuel Potvin
   </p>
 </div>
 
