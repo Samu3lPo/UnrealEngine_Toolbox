@@ -111,7 +111,7 @@ Here is a [course page](https://dev.epicgames.com/community/learning/courses/1px
 
 <ins>SESSION SUBSYSTEM</ins>
 
-The session subsystem allow you to connect many players to a session or even to chose which session a player want to join. This system work out of the box with the null subsystem from Unreal but you can use any online services if you add the correct configuration to your project.
+The session subsystem allow you to connect many players to a session or even to chose which session a player want to join. This system work out of the box with the null subsystem from Unreal but you can use any online subsystem if you add the correct configuration to your project.
 
 - [Documentation for Steam](https://docs.unrealengine.com/5.1/en-US/online-subsystem-steam-interface-in-unreal-engine/)
 - [Documentation for Epic Game](https://docs.unrealengine.com/5.1/en-US/online-subsystem-eos-plugin-in-unreal-engine/)
