@@ -127,7 +127,7 @@ The achivements subsystem allow you to creates achievements in your game through
 
 ### - Ability System plugin [(Source Code)](https://github.com/Samu3lPo/UnrealEngine_Toolbox/tree/master/AbilitySystem/Source/AbilitySystem)
 
-This plugin take advantage of the [Gameplay Tags](https://docs.unrealengine.com/5.1/en-US/using-gameplay-tags-in-unreal-engine/) in Unreal to further enhance the implementation of skills in your next game. This plugin gives you the potential to creates and handle abilities and modifiers in your game. Games such as MMORPGs, where the gameplay is skill-based, would benefit greatly from this system. This system is made to be multiplayer ready.
+This plugin is a simplified and inspired version of the Gameplay Ability System (GAS). It takes advantage of the [Gameplay Tags](https://docs.unrealengine.com/5.1/en-US/using-gameplay-tags-in-unreal-engine/) in Unreal to further enhance the implementation of skills in your next game. This plugin gives you the potential to creates and handle abilities and modifiers in your game. Games such as MMORPGs, where the gameplay is skill-based, would benefit greatly from this system. This system is made to be multiplayer ready.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
